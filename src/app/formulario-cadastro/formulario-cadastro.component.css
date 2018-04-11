@@ -1,0 +1,27 @@
+.ng-invalid.ng-touched:not(form){
+    border: 1px solid red;
+}
+    /*  Limpar Formatações Padrões */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:lightgray;
+}
+
+
+#formulario-cadastro{
+    margin: auto;
+    margin-top: 10px;
+}
+#container-cadastro{
+    margin-top:15%;
+}
+
+    /* Classes */
+.container{
+    margin-top: 15px;
+}
+

@@ -1,0 +1,21 @@
+<div class="container">
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Nome do Time</th>        
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let time of times">
+        <td>{{time.nome}}</td>        
+      </tr>      
+    </tbody>
+  </table>
+
+
+  <div class="container">
+    <a routerLink="/criarTime" role="button" class="btn btn-dark" >Criar novo time</a>
+    <a routerLink="/atualizarTime" role="button" class="btn btn-dark" >Atualizar time</a>
+    <a routerLink="/removerTime" role="button" class="btn btn-dark" >Remover time</a>
+  </div>
+</div>

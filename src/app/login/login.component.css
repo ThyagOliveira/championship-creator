@@ -1,0 +1,33 @@
+    /*  Limpar Formatações Padrões */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:lightgray;
+}
+
+
+
+    /* ID */
+#div-btn-login{
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 272px;
+} 
+
+#formulario-login{
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+}
+#container-login{
+    margin-top:15%;
+}
+
+
+    /* Classes */
+.container{
+    margin-top: 15px;
+}

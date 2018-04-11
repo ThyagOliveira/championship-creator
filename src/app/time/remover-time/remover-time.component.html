@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Remover Time</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="InputNome">Nome do Time</label>
+        <input [(ngModel)]="nome" name="nome" type="text" class="form-control" id="InputNome">
+      </div>
+
+      <button (click)="removerTimes()" type="submit" class="btn btn-primary">Remover</button>
+      <a routerLink="/times" role="button" class="btn btn-outline-success" aria-pressed="true">Voltar</a>
+  </form>
+</div>

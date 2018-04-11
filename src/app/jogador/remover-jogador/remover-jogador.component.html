@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Remover Jogador</h2>
+  
+    <form>
+      <div class="form-group">
+        <label for="InputNome">Nome do Jogador</label>
+        <input [(ngModel)]="nome" name="nome" type="text" class="form-control" id="InputNome">
+      </div>
+
+      <button (click)="removerJogadores()" type="submit" class="btn btn-primary">Remover</button>
+      <a routerLink="/jogadores" role="button" class="btn btn-outline-success" aria-pressed="true">Voltar</a>
+  </form>
+</div>

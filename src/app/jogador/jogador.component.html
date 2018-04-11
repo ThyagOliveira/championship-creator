@@ -1,0 +1,21 @@
+<div class="container">
+  <table class="table table-striped table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Lista de Jogadores</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td *ngFor="let jogador of jogadores">{{jogador}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+   <div class="container">
+    <a routerLink="/criarJogador" role="button" class="btn btn-dark" >Criar novo Jogador</a>
+    <a routerLink="/atualizarJogador" role="button" class="btn btn-dark" >Atualizar Jogador</a>
+    <a routerLink="/removerJogador" role="button" class="btn btn-dark" >Remover Jogador</a>
+  </div>
+
+</div>

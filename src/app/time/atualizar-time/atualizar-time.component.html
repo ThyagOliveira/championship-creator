@@ -1,0 +1,13 @@
+<div class="container">
+  <h2>Atualizar Time</h2>
+
+    <form>
+      <div class="form-group">
+        <label for="InputNome">Nome do Time</label>
+        <input [(ngModel)]="nome" name="nome" type="text" class="form-control" id="InputNome">
+      </div>
+
+      <button (click)="atualizarTimes()" type="submit" class="btn btn-primary">Atualizar</button>
+      <a routerLink="/times" role="button" class="btn btn-outline-success" aria-pressed="true">Voltar</a>
+  </form>
+</div>
